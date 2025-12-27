@@ -1,0 +1,41 @@
+.container {
+  margin: 0 auto;
+  padding: 40px 24px 32px;
+  max-width: 960px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: clamp(2.25rem, 5vw, 3rem);
+  margin: 0;
+  letter-spacing: -0.02em;
+}
+
+.header p {
+  margin: 0;
+  color: rgba(240, 244, 255, 0.8);
+  font-size: 1.05rem;
+}
+
+.footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: rgba(240, 244, 255, 0.7);
+  border-top: 1px solid rgba(240, 244, 255, 0.08);
+  padding-top: 20px;
+}
+
+.footer code {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 4px 8px;
+  border-radius: 6px;
+}
